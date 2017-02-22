@@ -4,7 +4,6 @@ const express = require('express'),
       cookieSession = require('cookie-session'),
       ejs = require('ejs');
 
-
 var app = express();
 
 app.set('view engine', 'ejs');
