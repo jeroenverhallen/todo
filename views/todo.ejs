@@ -7,5 +7,13 @@
   </head>
   <body>
     <h1>todo list</h1>
+    <ul>
+    <% todolist.forEach(todo, index) %>
+    </ul>
+        <form action="/newtask" method="POST">
+        New Task:<br>
+        <input type="text" name="newtask">
+        <input type="submit" value="Submit">
+        </form> 
   </body>
 </html>
